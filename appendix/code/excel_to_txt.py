@@ -14,5 +14,5 @@ def extract(inpath):
         #comments.append(result)
         print(result)
         comments.write(result)
-inpath = 'fulian4data.xlsx'  # excel文件所在路径
+inpath = 'fulian4Data.xlsx'  # excel文件所在路径
 extract(inpath)
