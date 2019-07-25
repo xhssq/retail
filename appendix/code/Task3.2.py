@@ -6,7 +6,7 @@ import numpy as np
 plt.rcParams['font.sans-serif'] = 'SimHei'
 #plt.rcParams['axcs.unicode_minus'] = False
 
-fulian4 = pd.read_excel('fulian4data.xlsx')
+fulian4 = pd.read_excel('fulian4ata.xlsx')
 df = to_datetime((fulian4['times']))
 hour = df.dt.hour
 count = []
