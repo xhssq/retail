@@ -44,3 +44,4 @@ def get_wordcloud(txt):
 get_wordcloud('haoping.txt')
 get_wordcloud('zhongping.txt')
 get_wordcloud('chaping.txt')
+
