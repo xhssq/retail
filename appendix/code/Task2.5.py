@@ -3,7 +3,7 @@ import jieba
 import pandas as pd
 from wordcloud import WordCloud
 
-fulian4 = pd.read_excel('fulian4data.xlsx')
+fulian4 = pd.read_excel('fulian4Data.xlsx')
 df = pd.DataFrame(fulian4,columns=['content','evaluate'])
 haoping = df.loc[df['evaluate'].str.contains('荐'),['content']]
 zhongping = df.loc[df['evaluate'].str.contains('行'),['content']]
