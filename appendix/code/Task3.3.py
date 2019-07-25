@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = 'SimHei'
 #plt.rcParams['axcs.unicode_minus'] = False
 
-fulian4 = pd.read_excel('fulian4data.xlsx')
+fulian4 = pd.read_excel('fulian4Data.xlsx')
 # print(df['times'].dtypes)
 df = pd.DataFrame(fulian4,columns=['scores','times'])
 df['times'] = pd.to_datetime(df['times'])
